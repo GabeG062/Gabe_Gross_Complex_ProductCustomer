@@ -61,8 +61,7 @@ namespace CustomerProductClasses
             // write the start of the document
             xmlOut.WriteStartDocument();
             xmlOut.WriteStartElement("Products");
-
-            // write each product object to the xml file
+            
             foreach (Product product in products)
             {
                 xmlOut.WriteStartElement("Product");
